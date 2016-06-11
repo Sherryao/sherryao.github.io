@@ -19,6 +19,10 @@
       list-style: none
   }
   
+  ul li {
+      margin-top: 0.05rem;
+  }
+  
   ul.nav-tabs {
       width: 140px;
       margin-top: 20px;
@@ -68,6 +72,7 @@
       font-weight: bold;
       color: #fff;
       padding: 0.03rem;
+      border-radius: 5px;
   }
   
   .project-experience {
@@ -76,15 +81,15 @@
   
   .jumbotron {
       background: #eee;
+      margin-top: 0.2rem;
+  }
+  
+  .name {
+      text-align: center;
   }
   
   .img-circle {
       width: 0.8rem;
       height: 0.9rem;
       margin: 0 41%;
-  }
-  
-  .name {
-      text-align: center;
-      margin-top: 0.2rem;
   }
